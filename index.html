@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/icons/icon-512.png" sizes="any">
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- <h3>Calculadora</h3> -->
+            <div class="elements">
+                <div class="input">
+                    <div class="historial"></div>
+                    <input class="result" />
+                    <!-- <div class="result"></div> -->
+                </div>
+                <div class="buttons">
+                    <button class="control" id="btn_C">C</button>
+                    <button class="control" id="btn_delete">
+                        <img src="./assets/delete-left.svg" class="icons" alt="delete">
+                    </button>
+                    <button class="control" id="btn_porc">%</button>
+                    <button class="operator" id="btn_multi">x</button>
+                    <button class="num" id="btn_7">7</button>
+                    <button class="num" id="btn_8">8</button>
+                    <button class="num" id="btn_9">9</button>
+                    <button class="operator" id="btn_div">÷</button>
+                    <button class="num" id="btn_4">4</button>
+                    <button class="num" id="btn_5">5</button>
+                    <button class="num" id="btn_6">6</button>
+                    <button class="operator" id="btn_res">-</button>
+                    <button class="num" id="btn_3">3</button>
+                    <button class="num" id="btn_2">2</button>
+                    <button class="num" id="btn_1">1</button>
+                    <button class="operator" id="btn_sum">+</button>
+                    <button class="num zero" id="btn_0">0</button>
+                    <button class="num" id="btn_dec" disabled>.</button>
+                    <button class="operator" id="btn_equal">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/functions.js"></script>
+</body>
+
+</html>
